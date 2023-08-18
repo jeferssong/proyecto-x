@@ -497,4 +497,8 @@ legend {
 
 .selectpro {
     background-color: #B80000;
+    border: 1px solid #B80000;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    padding: 10px;
 }
