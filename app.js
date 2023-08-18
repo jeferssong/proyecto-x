@@ -4,10 +4,10 @@ button.addEventListener('click',()=>{
     nav.classList.toggle('activo')
 })
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    var x = document.getElementById("mynav");
+    if (x.className === "nav") {
       x.className += " responsive";
     } else {
-      x.className = "topnav";
+      x.className = "nav";
     }
 }
