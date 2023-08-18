@@ -317,7 +317,7 @@ li {
   }
   
   .nav a:hover {
-    background-color: #ddd;
+    background-color: rgb(65, 65, 65);
   }
   
   .nav a.active {
