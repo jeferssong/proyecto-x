@@ -321,7 +321,7 @@ li {
   }
   
   .nav a.active {
-    color: white;
+    color: rgb(65, 65, 65);
   }
   
   .nav .icon {
