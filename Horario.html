@@ -8,8 +8,7 @@
     <meta name="Keywards" content="Financiamos tu corvette">
     <meta name="author" content="Concesionario AutoWorld">
     <title>Concesionario AutoWorld</title>
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script defer src="app.js"></script>
 </head>
@@ -18,98 +17,130 @@
 
     <header class="header">
 
-        <nav class="nav">
+        <nav class="nav" id="mynav">
             <ul class="ul">
-                <li class="li"><a href="index.html" class="a">inicio</a></li>
-                <li class="li"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
-                <li class="li"><a href="Contacto.html" class="a">Contacto</a></li>
-                <li class="li"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
-                <li class="dropdown-li"><a href="Vehiculos.html">Proyecto Automóviles</a>
+                <li class="li hidden"><a href="index.html" class="a active">Inicio</a></li>
+                <li class="li hidden"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                <li class="li hidden"><a href="Contacto.html" class="a">Contacto</a></li>
+                <li class="li hidden"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                <li class="dropdown-li hidden"><a href="Vehiculos.html">Proyecto Automóviles</a>
                     <ul class="dropdown">
                         <li><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
-                        <li><a href="Nosotros.html" >Nosotros</a></li>
-                        <li><a href="Horario.html" >Horario</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Horario.html">Horario</a></li>
                     </ul>
                 </li>
-                <li class="li"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="li hidden"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="dropdown-li"><a class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <ul class="dropdown">
+                        <li class="li "><a href="index.html" class="a active">inicio</a></li>
+                        <li class="li "><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                        <li class="li "><a href="Contacto.html" class="a">Contacto</a></li>
+                        <li class="li "><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                        <li class="li "><a href="Vehiculos.html">Proyecto Automóviles</a></li>
+                        <li class="li "><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
+                        <li class="li "><a href="Nosotros.html">Nosotros</a></li>
+                        <li class="li "><a href="Horario.html">Horario</a></li>
+                        <li class="li "><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-    <marquee width="200" style="margin-left: 30px;">
-        <h1 class="h1">Concesionario AutoWorld</h1>
-    </marquee>
 
-    <main>
-        <section>
+        <marquee width="10%" style="margin-left: 30px;">
+            <h1 class="h1">Jefersson Ricardo Herrera Guiza</h1>
+        </marquee>
+    </header>
+    <section>
+        <div class="divpro">
+        <h2 class="titulo2-1"> HORARIOS </h2>
 
-            <h2 class="h2"> HORARIOS </h2>
+    </section><br>
 
-        </section><br>
+    <section>
+        <center>
+        <table class="mapslineborder">
+            <tr>
+                <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center;">HORARIO DE
+                    ATENCIÓN</th>
+            </tr>
+            <tr>
+                <td colspan="2" style="border: 1px solid black; padding: 8px; text-align: center;">LUNES A VIERNES
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">DE 8 AM A 12 DEL MEDIO DÍA
+                </td>
+                <td style="border: 1px solid black; padding: 8px; text-align: center;">DE 2 PM A 6 PM</td>
+            </tr>
+        </table>
+    </section>
+        </center>
+        <br>
+        <br>
+    <section>
+        <ul>
+            <li>
+                <table>
+                    <tr>
+                        <th colspan="2">HORARIO DE TALLER</th>
+                        <a><i class="fa fa-wrench fa-flex" aria-hidden="true"></i></a>
+                    </tr>
+                    <tr>
+                        <td>LUNES A SÁBADOS</td>
+                    </tr>
+                    <tr>
+                        <td>DE 8 AM A 12 DEL MEDIO DÍA</td>
+                    </tr>
+                    <tr>
+                        <td>DE 2 PM A 6 PM</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+            </li>
+        </ul>
+    </section>
 
-        <section>
-            <table style="border: 1px solid black; width: 100%; border-collapse: collapse;">
-                <tr>
-                    <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center;">HORARIO DE
-                        ATENCIÓN</th>
-                </tr>
-                <tr>
-                    <td colspan="2" style="border: 1px solid black; padding: 8px; text-align: center;">LUNES A VIERNES
-                    </td>
-                </tr>
-                <tr>
-                    <td style="border: 1px solid black; padding: 8px; text-align: center;">DE 8 AM A 12 DEL MEDIO DÍA
-                    </td>
-                    <td style="border: 1px solid black; padding: 8px; text-align: center;">DE 2 PM A 6 PM</td>
-                </tr>
-            </table>
-        </section>
-
-        <section>
-            <ul>
-                <li>
-                    <table border="1">
-                        <tr>
-                            <th colspan="2">HORARIO DE TALLER</th>
-                        </tr>
-                        <tr>
-                            <td>LUNES A SÁBADOS</td>
-                        </tr>
-                        <tr>
-                            <td>DE 8 AM A 12 DEL MEDIO DÍA</td>
-                        </tr>
-                        <tr>
-                            <td>DE 2 PM A 6 PM</td>
-                        </tr>
-                    </table>
-                </li>
-            </ul>
-        </section>
 
 
-
-        <section>
-            <ul>
-                <li>
-                    <table border="1">
-                        <tr>
-                            <th width="60%">HORARIO DE FORMULARIO</th>
-                        </tr>
-                        <tr>
-                            <td>LUNES A VIERNES</td>
-                        </tr>
-                        <tr>
-                            <td>DE 7 AM A 11 AM</td>
-                        </tr>
-                        <tr>
-                            <td>DE 2 PM A 6 PM</td>
-                        </tr>
-                    </table>
-                </li>
-            </ul>
-        </section>
+    <section>
+        <ul>
+            <li>
+                <table>
+                    <tr>
+                        <th>HORARIO DE FORMULARIO</th>
+                        <i class="fa fa-check-square-o fa-flex" aria-hidden="true"></i>
+                    <tr>
+                        <td>LUNES A VIERNES</td>
+                    </tr>
+                    <tr>
+                        <td>DE 7 AM A 11 AM</td>
+                    </tr>
+                    <tr>
+                        <td>DE 2 PM A 6 PM</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+    </section>
 
 
 
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="footerpro">
+        <p>© 2023 todos los derechos reservados. Jefersson ricardo herrera guiza <a
+                href="https://github.com/jeferssong/" class="afooter">Freelancer</a></p>
+    </footer>
 
 
 </body>

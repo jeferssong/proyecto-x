@@ -2,56 +2,62 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="Descripcion" content="compra y venta de vehiculos">
     <meta name="Keywards" content="Financiamos tu corvette">
     <meta name="author" content="Concesionario AutoWorld">
     <title>Concesionario AutoWorld </title>
-
     <link rel="stylesheet" href="style.css" type="text/css">
     <script defer src="app.js"></script>
-
 </head>
 
 <body>
-
     <header class="header">
 
-
-
-        <nav class="nav">
+        <nav class="nav" id="mynav">
             <ul class="ul">
-                <li class="li"><a href="index.html" class="a">inicio</a></li>
-                <li class="li"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
-                <li class="li"><a href="Contacto.html" class="a">Contacto</a></li>
-                <li class="li"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
-                <li class="dropdown-li"><a href="Vehiculos.html">Proyecto Automóviles</a>
+                <li class="li hidden"><a href="index.html" class="a active">Inicio</a></li>
+                <li class="li hidden"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                <li class="li hidden"><a href="Contacto.html" class="a">Contacto</a></li>
+                <li class="li hidden"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                <li class="dropdown-li hidden"><a href="Vehiculos.html">Proyecto Automóviles</a>
                     <ul class="dropdown">
                         <li><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
-                        <li><a href="Nosotros.html" >Nosotros</a></li>
-                        <li><a href="Horario.html" >Horario</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Horario.html">Horario</a></li>
                     </ul>
                 </li>
-                <li class="li"><a href="cafe .html" class="a">Proyecto Cafe</a></li>
+                <li class="li hidden"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="dropdown-li"><a class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <ul class="dropdown">
+                        <li class="li "><a href="index.html" class="a active">inicio</a></li>
+                        <li class="li "><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                        <li class="li "><a href="Contacto.html" class="a">Contacto</a></li>
+                        <li class="li "><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                        <li class="li "><a href="Vehiculos.html">Proyecto Automóviles</a></li>
+                        <li class="li "><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
+                        <li class="li "><a href="Nosotros.html">Nosotros</a></li>
+                        <li class="li "><a href="Horario.html">Horario</a></li>
+                        <li class="li "><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                    </ul>
+                </li>
             </ul>
-        </nav>
-        </div>
-
-
-        <marquee width="200" style="margin-left: 30px;">
-            <h1 class="h1">Concesionario AutoWorld</h1>
-        </marquee>
+            </nav>
+            <marquee width="10%" style="margin-left: 30px;">
+                <h1 class="h1">jefersson ricardo herrera guiza</h1>
+            </marquee>
     </header>
-    <h1 class="h1">Tipos de Vehiculos:</h1><br>
+    <div class="divpro">
+    <h1 class="textop negrilla">Tipos de Vehiculos:</h1><br>
 
 
     <section>
 
-        <h2 class="h2">Corvette z06:</h2><br>
+        <h2 class="textop negrilla">Corvette z06:</h2><br>
 
 
-        <img class="img" src="img/vehiculo.jpeg" width="540" height="327" alt="corvette"
+        <img class="img" src="img/vehiculo.jpeg" width="340" height="227" alt="corvette" 
             title="Concesionario AutoWorld" /><br>
 
 
@@ -63,16 +69,16 @@
             ello,
             de acuerdo con<br>
             Chevrolet, esa dificultad en carreras de resistencia ayudó a los ingenieros a refinar el desempeño y la
-            durabilidad del motor.
+            durabilidad del motor. su precio es de  106.395 dólares
         </p> <br>
     </section>
 
     <section>
 
-        <h2 class="h2">Corvette zr1:</h2>
+        <h2 class="textop negrilla">Corvette zr1:</h2>
 
 
-        <img class="img" src="img/zr1.jpeg" width="540" height="327" alt="corvette"
+        <img class="img" src="img/zr1.jpeg" width="340" height="227" alt="corvette"
             title="Concesionario AutoWorld" /><br>
 
         <p class="p" style="margin-left: 370px;" style="margin-right: 300px;"> Estamos ante el Corvette más poderoso
@@ -88,17 +94,17 @@
             tienen la tarea de abastecer de suficiente aire frío al enorme V8 de 6.2 litros. El alerón brinda la
             carga
             aerodinámica necesaria<br>
-            para mantener al Corvette con las llantas sobre el asfalto a altas velocidades.
+            para mantener al Corvette con las llantas sobre el asfalto a altas velocidades. su precio es de  925.000 dólares
         </p> <br>
 
     </section>
 
     <section>
 
-        <h2 class="h2">Corvette Coupé:</h2>
+        <h2 class="textop negrilla">Corvette Coupé:</h2>
 
 
-        <img class="img" src="img/coope.jpeg" width="640" height="427" alt="corvette"
+        <img class="img" src="img/coope.jpeg" width="340" height="227" alt="corvette"
             title="Concesionario AutoWorld" /><br>
 
         <p class="p" style="margin-left: 370px;" style="margin-right: 300px;"> El Corvette C6 es muy similar al C5.
@@ -115,10 +121,14 @@
             muchos y profundos cambios. El bastidor era de nuevo modificado, ofreciendo unos 13 cm (5,1 pulgadas)
             menos
             de longitud,<br>
-            pero con mayor batalla que su antecesor.
+            pero con mayor batalla que su antecesor. su precio es de 60.000 dólares
         </p> <br>
     </section>
-
+    </div>
+    <footer class="footerpro">
+        <p>© 2023 todos los derechos reservados. Jefersson ricardo herrera guiza <a
+                href="https://github.com/jeferssong/" class="afooter">Freelancer</a></p>
+    </footer>
 
 
 </body>

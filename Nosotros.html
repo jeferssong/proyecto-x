@@ -2,74 +2,126 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-    <meta name="Descripcion" content="compra y venta de vehiculos">
-    <meta name="Keywards" content="Financiamos tu corvette">
-    <meta name="author" content="Concesionario AutoWorld">
-    <title>Concesionario AutoWorld</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script defer src="app.js"></script>
-
-
+    <title>Nosotros</title>
 </head>
 
 <body>
 
     <header class="header">
 
-        <nav class="nav">
-            <nav class="nav">
-                <ul class="ul">
-                    <li class="li"><a href="index.html" class="a">inicio</a></li>
-                    <li class="li"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
-                    <li class="li"><a href="Contacto.html" class="a">Contacto</a></li>
-                    <li class="li"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
-                    <li class="dropdown-li"><a href="Vehiculos.html">Proyecto Automóviles</a>
-                        <ul class="dropdown">
-                            <li><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
-                            <li><a href="Nosotros.html" >Nosotros</a></li>
-                            <li><a href="Horario.html" >Horario</a></li>
-                        </ul>
-                    </li>
-                    <li class="li"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
-                </ul>
-            </nav>
-        <marquee width="200" style="margin-left: 30px;">
-            <h1 class="h1">Concesionario AutoWorld</h1>
+        <nav class="nav" id="mynav">
+            <ul class="ul">
+                <li class="li hidden"><a href="index.html" class="a active">Inicio</a></li>
+                <li class="li hidden"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                <li class="li hidden"><a href="Contacto.html" class="a">Contacto</a></li>
+                <li class="li hidden"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                <li class="dropdown-li hidden"><a href="Vehiculos.html">Proyecto Automóviles</a>
+                    <ul class="dropdown">
+                        <li><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Horario.html">Horario</a></li>
+                    </ul>
+                </li>
+                <li class="li hidden"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="dropdown-li"><a class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <ul class="dropdown">
+                        <li class="li "><a href="index.html" class="a active">inicio</a></li>
+                        <li class="li "><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                        <li class="li "><a href="Contacto.html" class="a">Contacto</a></li>
+                        <li class="li "><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                        <li class="li "><a href="Vehiculos.html">Proyecto Automóviles</a></li>
+                        <li class="li "><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
+                        <li class="li "><a href="Nosotros.html">Nosotros</a></li>
+                        <li class="li "><a href="Horario.html">Horario</a></li>
+                        <li class="li "><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <marquee width="10%" style="margin-left: 30px;">
+            <h1 class="h1">Jefersson Ricardo Herrera Guiza</h1>
         </marquee>
-
-        <main>
-            <section>
-                <h1 class="h1">El corvette es:</h1>
-                <p class="p" style="margin-left: 370px;" style="margin-right: 300px;">El automóvil deportivo más famoso
-                    de
-                    Chevrolet y
-                    de los Estados Unidos, llegó a la unidad 1,5 millones. Cuando salió, en 1953,<br>
-                    con una máquina de solo 6 cilindros en línea pero con tres carburadores y la carrocería en fibra de
-                    vidrio, pocos pensaron que este<br>
-                    carro sobreviviría.En 1962, los Sting Ray -Split Window- partieron su historia hacia la continuidad.
-                </p>
-
-                <p class="p" style="margin-left: 370px;" style="margin-right: 300px;">Existen ocho generaciones de este
-                    deportivo
-                    estadounidense: C1 (1953-1962), C2 (1963-1967), C3 (1968-1982), C4 (1983-1996),<br>
-                    C5 (1997-2004), C6 (2005-2013), C7 (2014-2019) y C8 (2020-presente). Se fabrican diversas versiones
-                    con
-                    diferentes funciones<br>
-                    dentro de cada generación. A lo largo de los años, las versiones del coche han ganado premios de
-                    revistas como Motor Trend y Car<br>
-                    and Driver, así como de organizaciones como la Sociedad de Ingenieros Automotrices y también se ha
-                    utilizado como coche de<br>
-                    seguridad en las 500 millas de Indianápolis desde 1978.</p>
-                <br>
-            </section>
-            <br>
-            <img class="img" src="img/corvet.jpeg" width="640" height="427" alt="corvette"
-                title="Concesionario AutoWorld" /><br>
-        </main>
     </header>
+    <div class="divpro">
+    <section>
+        <h1 class="textop negrilla">Concesionario AutoWorld es:</h1>
+        <p class="p" style="margin-left: 370px;" style="margin-right: 300px;">Bienvenidos a Concesionario AutoWorld,
+
+            En Concesionario AutoWorld, nuestra pasión por los autos y nuestro compromiso con la excelencia se fusionan
+            para crear una experiencia única en el mundo de los vehículos. Nos enorgullecemos de ser mucho más que un
+            simple lugar para comprar autos; somos una comunidad apasionada de entusiastas automotrices dedicados a
+            brindar el mejor servicio y asesoramiento a nuestros clientes.
+
+            Nuestra historia es un viaje que ha sido pavimentado por años de experiencia y dedicación al mundo de los
+            automóviles. Desde nuestros humildes comienzos, hemos crecido hasta convertirnos en un referente en la
+            industria, estableciendo una sólida reputación por ofrecer vehículos de alta calidad y un servicio al
+            cliente excepcional.
+
+            Lo que nos distingue en Concesionario AutoWorld es nuestra dedicación a la satisfacción del cliente en cada
+            paso del camino. Nuestro equipo altamente capacitado y apasionado está aquí para guiarlo en la búsqueda del
+            auto perfecto que se adapte a sus necesidades y estilo de vida. Ya sea que esté buscando un automóvil
+            familiar confiable, un elegante sedán de lujo o un vehículo todoterreno aventurero, tenemos una amplia gama
+            de opciones para elegir.
+
+            En Concesionario AutoWorld, no solo vendemos autos; creamos relaciones duraderas. Valoramos la confianza que
+            nuestros clientes depositan en nosotros y nos esforzamos por superar sus expectativas en cada interacción.
+            Además de brindar una selección excepcional de autos, también ofrecemos servicios de mantenimiento y
+            reparación de alta calidad para asegurarnos de que su inversión en un automóvil esté respaldada por un
+            rendimiento óptimo a lo largo de los años.
+
+            Nuestra misión es proporcionar una experiencia de compra de automóviles que sea emocionante, transparente y
+            gratificante. Nos apasiona compartir nuestra experiencia automotriz contigo y ayudarte a encontrar el auto
+            de tus sueños. Te invitamos a visitar nuestras instalaciones, conocer a nuestro equipo y descubrir cómo
+            Concesionario AutoWorld puede hacer realidad tus aspiraciones automovilísticas.
+
+            Gracias por ser parte de nuestra historia.
+        </p>
+        <br>
+        <p class="p" style="margin-left: 370px;" style="margin-right: 300px;">Atentamente,
+            El Equipo de Concesionario AutoWorld
+            Siéntete libre de adaptar y personalizar esta descripción según la visión y los valores específicos de tu
+            concesionario de autos.
+            <br>
+    </section>
+    <br>
+    </div>
+    </main>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="footerpro">
+        <p>© 2023 todos los derechos reservados. Jefersson ricardo herrera guiza <a
+                href="https://github.com/jeferssong/" class="afooter">Freelancer</a></p>
+    </footer>
+
 </body>
 
 </html>

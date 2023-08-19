@@ -17,26 +17,41 @@
 
     <header class="header">
 
-        <nav class="nav">
+        <nav class="nav" id="mynav">
             <ul class="ul">
-                <li class="li"><a href="index.html" class="a">inicio</a></li>
-                <li class="li"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
-                <li class="li"><a href="Contacto.html" class="a">Contacto</a></li>
-                <li class="li"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
-                <li class="dropdown-li"><a href="Vehiculos.html">Proyecto Automóviles</a>
+                <li class="li hidden"><a href="index.html" class="a active">Inicio</a></li>
+                <li class="li hidden"><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                <li class="li hidden"><a href="Contacto.html" class="a">Contacto</a></li>
+                <li class="li hidden"><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                <li class="dropdown-li hidden"><a href="Vehiculos.html">Proyecto Automóviles</a>
                     <ul class="dropdown">
                         <li><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
-                        <li><a href="Nosotros.html" >Nosotros</a></li>
-                        <li><a href="Horario.html" >Horario</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Horario.html">Horario</a></li>
                     </ul>
                 </li>
-                <li class="li"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="li hidden"><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                <li class="dropdown-li"><a class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i></a>
+                    <ul class="dropdown">
+                        <li class="li "><a href="index.html" class="a active">inicio</a></li>
+                        <li class="li "><a href="sobre mi.html" class="a">Sobre Mi</a></li>
+                        <li class="li "><a href="Contacto.html" class="a">Contacto</a></li>
+                        <li class="li "><a href="deportes.html" class="a">Proyecto Deportes</a></li>
+                        <li class="li "><a href="Vehiculos.html">Proyecto Automóviles</a></li>
+                        <li class="li "><a href="Nuestros_asesores.html">Nuestros_asesores</a></li>
+                        <li class="li "><a href="Nosotros.html">Nosotros</a></li>
+                        <li class="li "><a href="Horario.html">Horario</a></li>
+                        <li class="li "><a href="cafe.html" class="a">Proyecto Cafe</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
-        <marquee width="200" style="margin-left: 30px;">
-            <h1 class="h1">Concesionario AutoWorld</h1>
+        <marquee width="10%" style="margin-left: 30px;">
+            <h1 class="h1">Jefersson Ricardo Herrera Guiza</h1>
         </marquee>
     </header>
+    <div class="divpro">
     <section>
 
         <h2 class="h2">FORMULARIO</h2>
@@ -78,8 +93,11 @@
         </form>
 
     </section>
-
-
+    </div>
+    <footer class="footerpro">
+        <p>© 2023 todos los derechos reservados. Jefersson ricardo herrera guiza <a
+                href="https://github.com/jeferssong/" class="afooter">Freelancer</a></p>
+    </footer>
 
 
 </body>

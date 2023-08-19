@@ -35,9 +35,6 @@ picture,
 video,
 iframe,
 figure {
-    max-width: 100%;
-    width: 100%;
-    height: 80%;
     display: block;
     -o-object-fit: cover;
     object-fit: cover;
@@ -307,7 +304,7 @@ li {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
     .nav ul li a:not(:first-child) {
         display: none;
     }
@@ -513,4 +510,10 @@ span {
 .mapslineborder {
     border: 1px solid #B80000;
     padding: 0px;
+}
+
+.centerj {
+    width: fit-content;
+    margin: 0 auto;
+
 }
