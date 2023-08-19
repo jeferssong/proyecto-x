@@ -424,14 +424,15 @@ li {
 }
 
 .contact_form {
-    width: 460px;
+    width: 70%;
     height: auto;
     margin: 80px auto;
     border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #fbfbfb;
     padding-left: 30px;
+    text-align: -webkit-center;
 }
 
 .formulario input:focus {
@@ -494,6 +495,7 @@ label {
 legend {
     font-size: 13px;
     color: #0e0e0e;
+    text-align: center;
 }
 
 .selectpro {
