@@ -35,7 +35,6 @@ picture,
 video,
 iframe,
 figure {
-    display: block;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center center;
@@ -515,5 +514,8 @@ span {
 .centerj {
     width: fit-content;
     margin: 0 auto;
-
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    ali
 }
