@@ -534,7 +534,7 @@ span {
     margin: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: hsl(216, 50%, 16%);
+    background-color: hsl(0, 67%, 42%);
     width: 350px;
     height: 600px;
     border-radius: 15px;
@@ -545,7 +545,7 @@ span {
 #cubeLink {
     height: 305px;
     margin: 20px 23px;
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
     border-radius: 13px;
 }
 
@@ -584,11 +584,11 @@ span {
 }
 
 #header:hover {
-    color:hsl(178, 100%, 50%);
+    color:hsl(0, 100%, 50%);
 }
 
 #description {
-    color: hsl(215, 52%, 70%);
+    color: hsl(0, 0%, 100%);
     margin: 15px 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -611,7 +611,7 @@ span {
     margin-right: 3px;
 }
 #eth {
-    color: hsl(178, 100%, 50%);
+    color: hsl(0, 0%, 100%);
     font-weight: 600;
     display: inline-block;
     vertical-align: middle;
@@ -666,5 +666,5 @@ span {
 }
 
 #mainName:hover {
-    color: hsl(178, 100%, 50%);
+    color: hsl(0, 100%, 50%);
 }
